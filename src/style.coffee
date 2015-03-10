@@ -18,7 +18,7 @@ class Style
     "/*\n#{ comment }\n*/"
   
   resolveImageSelector: ( name ) ->
-    // TODO
+    # TODO
     'face' + name
   
   generate: ( options ) ->
