@@ -18,7 +18,8 @@ class Style
     "/*\n#{ comment }\n*/"
   
   resolveImageSelector: ( name ) ->
-    name
+    // TODO
+    'face' + name
   
   generate: ( options ) ->
     { imagePath, relativeImagePath, images, pixelRatio, width, height } = options
