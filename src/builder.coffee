@@ -152,6 +152,9 @@ class SpriteSheetConfiguration
 
     if options.outputStyleFilePath
       @outputStyleFilePath        = options.outputStyleFilePath
+      
+    if options.resolveImageSelector
+      @resolveImageSelector        = options.resolveImageSelector
 
     @style = new Style( options )
 
