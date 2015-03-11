@@ -19,7 +19,7 @@ class Style
   
   resolveImageSelector: ( name ) ->
     # TODO
-    'face' + name
+    'emoji' + name
   
   generate: ( options ) ->
     { imagePath, relativeImagePath, images, pixelRatio, width, height } = options
